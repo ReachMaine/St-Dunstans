@@ -1,0 +1,53 @@
+@import url("../flatsome/css/foundation.css");
+/*
+Theme Name: Flatsome Child Theme
+Theme URI: http://flatsome.uxthemes.com/
+Description: This is a child theme for Flatsome
+Template: flatsome
+Version: 1.8
+*/
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+/* Colors ---------------------------------------------- */
+/* Typography ------------------------------------------ */
+/* Custom Functions ------------------------------------ */
+/* ===================================================== */
+/* ===================================================== */
+/* Media Queries --------------------------------------- */
+/* ===================================================== */
+/* Media Queries Settings ------------------------------ */
+/* Media Query Function -------------------------------- */
+/* How To Use ------------------------------------------ */
+/*
+ * #wrapper {
+ *    margin: 0 auto;
+ *     
+ *    @include respond-to(handheld) {
+ *       width: 100%;
+ *    }
+ *     
+ *    @include respond-to(tablet) {
+ *       width: 98%;
+ *    }
+ *     
+ *    @include respond-to(desktop) {
+ *       width: 92%;
+ *    }
+ * }
+ */
+/* End Media Queries ----------------------------------- */
+/* ===================================================== */
+.from_the_blog_comments {
+  display: none;
+  visibility: hidden; }
+
+aside.widget.widget_recent_entries li {
+  padding-bottom: 15px; }
+
+footer.entry-meta {
+  padding: 0px;
+  margin: 0px; }
+
+article.type-post, article.hentry {
+  margin-bottom: 20px; }
+
+/* =Theme customization starts here */

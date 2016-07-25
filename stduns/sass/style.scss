@@ -1,0 +1,31 @@
+/*
+Theme Name: Flatsome Child Theme
+Theme URI: http://flatsome.uxthemes.com/
+Description: This is a child theme for Flatsome
+Template: flatsome
+Version: 1.8
+*/
+
+@import url("../flatsome/css/foundation.css");
+
+/*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
+
+@import "partials/settings";
+@import "partials/functions"; 
+.from_the_blog_comments {
+	display: none;
+	visibility: hidden;
+}
+aside.widget.widget_recent_entries {
+	li {
+		padding-bottom: 15px;
+	}
+}
+footer.entry-meta { // since removed the footer meta
+	padding: 0px;
+	margin: 0px;
+}
+article.type-post, article.hentry {
+	margin-bottom: 20px;
+}
+/* =Theme customization starts here */
