@@ -36,6 +36,22 @@ Version: 1.8
  */
 /* End Media Queries ----------------------------------- */
 /* ===================================================== */
+/* styling for the jquery News ticker plugin */
+.gticker-wrapper.has-js {
+  font-size: 20px;
+  line-height: 22px;
+  height: 40px !important;
+  background-color: white; }
+  .gticker-wrapper.has-js .gticker {
+    height: 40px !important; }
+    .gticker-wrapper.has-js .gticker .gticker-swipe {
+      height: 40px !important;
+      background-color: white; }
+
+.gticker-wrapper.has-js:after {
+  clear: both; }
+
+/* end of styling for jquery News ticker */
 .from_the_blog_comments {
   display: none;
   visibility: hidden; }

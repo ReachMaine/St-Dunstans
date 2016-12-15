@@ -11,7 +11,8 @@ Version: 1.8
 /*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
 
 @import "partials/settings";
-@import "partials/functions"; 
+@import "partials/functions";
+@import "partials/jticker";
 .from_the_blog_comments {
 	display: none;
 	visibility: hidden;
