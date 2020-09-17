@@ -51,6 +51,31 @@ Version: 1.8
   clear: both; }
 
 /* end of styling for jquery News ticker */
+/* gravity form styling */
+.gform_wrapper .gform_body li.gfmc-column ul {
+  margin-top: 0px;
+  margin-bottom: 0px; }
+  .gform_wrapper .gform_body li.gfmc-column ul li {
+    margin-top: 0px;
+    margin-bottom: 0px; }
+    .gform_wrapper .gform_body li.gfmc-column ul li input {
+      margin-top: 0px;
+      margin-bottom: 0px; }
+.gform_wrapper .gform_footer {
+ /*	input[type=submit] { //  Submit & save for later  look like buttons on the site.
+		  color: white;
+	    padding: 6px 20px;
+	    border-width: 0px;
+	    font-size: 20px!important;
+	    text-align: center;
+	    cursor: pointer;
+			background-color: $ats_orange;
+			//line-height: 1.7em;
+		}
+		.gform_save_link {
+			border-width: 2px;
+		} */ }
+
 .from_the_blog_comments {
   display: none;
   visibility: hidden; }
