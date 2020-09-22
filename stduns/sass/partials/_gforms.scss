@@ -16,6 +16,16 @@
           }
         }
       }
+      li.gfield.gfield_calculation {
+        input {
+          background-color: $stduns-lightblue;
+        }
+      }
+      li.gfield.stduns-align-right{
+        input {
+          text-align: right;
+        }
+      }
     } // body
 
 	.gform_footer {
