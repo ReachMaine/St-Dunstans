@@ -12,7 +12,8 @@ a.button.stduns-hdr-button {
   color: white !important;
   font-size: large !important;
   height: 52px;
-  padding-left: 20px !important; }
+  padding-left: 20px !important;
+  font-family: "Lato", sans-serif; }
 
 a.button.stduns-hdr-button:hover {
   background-color: #122c91; }
