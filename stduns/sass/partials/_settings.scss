@@ -2,6 +2,7 @@
 // Font Colors
 $linkcolor: #a62425;
 $titleFontColor: #a62425;
+$stduns-blue: #122c91;
 
 // Background colors:
 
@@ -10,9 +11,12 @@ $menuBarbkg: #D14719; //
 $stduns-lightblue: #e3e9ff;
 
 /* Typography ------------------------------------------ */
-.stduns-hdr-button a {
-	color: white;
+a.button.stduns-hdr-button {
+		color: white!important;
+		font-size: large!important;
+    height: 52px;
+    padding-left: 20px!important;
 }
-.stduns-hdr-button a:hove {
-	color: rgba(102,102,102,0.85);
+a.button.stduns-hdr-button:hover {
+	background-color: $stduns-blue;
 }

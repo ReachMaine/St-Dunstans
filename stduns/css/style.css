@@ -8,11 +8,14 @@ Version: 1.8
 /*************** ADD YOUR CUSTOM CSS IN THIS AREA ***************/
 /* Colors ---------------------------------------------- */
 /* Typography ------------------------------------------ */
-.stduns-hdr-button a {
-  color: white; }
+a.button.stduns-hdr-button {
+  color: white !important;
+  font-size: large !important;
+  height: 52px;
+  padding-left: 20px !important; }
 
-.stduns-hdr-button a:hove {
-  color: rgba(102, 102, 102, 0.85); }
+a.button.stduns-hdr-button:hover {
+  background-color: #122c91; }
 
 /* Custom Functions ------------------------------------ */
 /* ===================================================== */
