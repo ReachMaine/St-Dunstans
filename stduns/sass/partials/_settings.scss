@@ -10,3 +10,9 @@ $menuBarbkg: #D14719; //
 $stduns-lightblue: #e3e9ff;
 
 /* Typography ------------------------------------------ */
+.stduns-hdr-button a {
+	color: white;
+}
+.stduns-hdr-button a:hove {
+	color: rgba(102,102,102,0.85);
+}
