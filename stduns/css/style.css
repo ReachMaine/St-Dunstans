@@ -10,14 +10,17 @@ Version: 1.8
 /* Typography ------------------------------------------ */
 a.button.stduns-hdr-button {
   color: white !important;
-  font-size: large !important;
   height: 52px;
   padding-left: 20px !important;
-  font-family: "Lato", sans-serif; }
+  font-family: "Lato", sans-serif;
+  border: 2px solid black; }
 
 a.button.stduns-hdr-button:hover {
-  background-color: #122c91; }
+  background-color: #7a9c59; }
 
+@media all and (min-width: 850px) {
+  a.button.stduns-hdr-button {
+    font-size: x-large !important; } }
 /* Custom Functions ------------------------------------ */
 /* ===================================================== */
 /* ===================================================== */

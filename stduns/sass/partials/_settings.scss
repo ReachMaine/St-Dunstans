@@ -3,7 +3,7 @@
 $linkcolor: #a62425;
 $titleFontColor: #a62425;
 $stduns-blue: #122c91;
-
+$stduns-green: #7a9c59;
 // Background colors:
 
 $bkgoundContent: #FFFFFF; //
@@ -13,11 +13,18 @@ $stduns-lightblue: #e3e9ff;
 /* Typography ------------------------------------------ */
 a.button.stduns-hdr-button {
 		color: white!important;
-		font-size: large!important;
+//		font-size: x-large!important;
     height: 52px;
     padding-left: 20px!important;
 		font-family: "Lato", sans-serif;
+		border: 2px solid black;
 }
 a.button.stduns-hdr-button:hover {
-	background-color: $stduns-blue;
+	background-color: $stduns-green;
+}
+
+@media all and (min-width: 850px) {
+	a.button.stduns-hdr-button {
+			font-size: x-large!important;
+	}
 }
